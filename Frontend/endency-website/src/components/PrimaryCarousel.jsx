@@ -4,7 +4,7 @@ import 'react-multi-carousel/lib/styles.css'
 import '../styles/PrimaryCarousel.css'
 import CustomRightArrow from './CustomRightArrow';
 import CustomLeftArrow from './CustomLeftArrow';
-import CustomDot from './CustomDOt';
+import CustomDot from './CustomDot';
 
 const responsive = {
     desktop: {
