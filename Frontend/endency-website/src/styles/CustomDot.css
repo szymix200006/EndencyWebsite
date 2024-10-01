@@ -1,0 +1,11 @@
+.custom-dot {
+    background: none;
+    border: none;
+}
+
+@media screen and (max-width: 500px) {
+    .custom-dot-image {
+        height: 20px;
+        width: 20px;
+    }
+}

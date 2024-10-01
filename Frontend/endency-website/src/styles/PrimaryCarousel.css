@@ -1,0 +1,16 @@
+.carousel-container {
+    height: 90%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 20px;
+}
+
+.custom-dot-list-style{
+    gap: 40px;
+}
+
+@media screen and (max-width: 920px) {
+    .carousel-container {
+        padding: 0;
+    }
+}

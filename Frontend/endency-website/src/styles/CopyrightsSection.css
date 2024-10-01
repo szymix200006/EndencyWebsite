@@ -1,0 +1,18 @@
+.copyrights-section-container {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .copyrights-section-container {
+        column-gap: 50px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .copyrights-section-container {
+        column-gap: 25px;
+    }
+}

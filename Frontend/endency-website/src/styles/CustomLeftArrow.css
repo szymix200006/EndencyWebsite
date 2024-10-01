@@ -1,0 +1,8 @@
+.custom-left-arrow {
+    background: none;
+    border: none;
+    position: absolute;
+    left: 0;
+    top: 400px;
+    transform: translateY(-50%);
+}

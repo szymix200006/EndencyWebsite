@@ -1,0 +1,96 @@
+.small-card-container {
+    width: 415px;
+    height: 440px;
+    background-color: #303343;
+    border-radius: 30px;
+    padding:  20px 40px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.small-card-header {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.small-card-text {
+    font-size: 20px;
+    color: #FFFFFF;
+    height: 280px
+}
+
+.small-card-button-wrapper {
+    align-self: end;
+    justify-self: end;
+}
+
+@media screen and (max-width: 1500px) {
+    .small-card-container {
+        width: 350px;
+        height: 390px;
+        gap: 14px;
+        padding: 15px 30px;
+    }
+
+    .small-card-header {
+        font-size: 32px;
+    }
+
+    .small-card-text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .small-card-container {
+        width: 300px;
+        height: 340px;
+        gap: 10px;
+        padding: 15px 30px;
+    }
+
+    .small-card-header {
+        font-size: 28px;
+    }
+
+    .small-card-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .small-card-container {
+        width: 500px;
+        height: 540px;
+        gap: 35px;
+        padding: 25px 50px;
+    }
+
+    .small-card-header {
+        font-size: 44px;
+    }
+
+    .small-card-text {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .small-card-container {
+        width: 300px;
+        height: 340px;
+        gap: 10px;
+        padding: 15px 30px;
+    }
+
+    .small-card-header {
+        font-size: 28px;
+    }
+
+    .small-card-text {
+        font-size: 16px;
+    }
+}

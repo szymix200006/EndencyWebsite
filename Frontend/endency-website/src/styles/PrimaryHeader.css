@@ -1,0 +1,26 @@
+.primary-header {
+    color: #FFFFFF;
+    font-size: 56px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 880px) {
+    .primary-header {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .primary-header {
+        text-align: center;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .primary-header {
+        text-align: center;
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,19 @@
+.secondary-button-wrapper {
+    color: #FFFFFF;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 550px) {
+    .secondary-button-wrapper {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .secondary-button-wrapper {
+        font-size: 16px;
+    }
+}

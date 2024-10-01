@@ -1,0 +1,249 @@
+.our-team-card-container {
+    height: 510px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+.our-team-card-member-image {
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 0 15px black;
+    border-radius: 25px;
+}
+
+.our-team-card-right-column {
+    padding: 25px 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.our-team-card-role {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.our-team-card-name {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.our-team-card-description {
+    font-size: 16px;
+}
+
+.our-team-card-media-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 60px
+}
+
+.our-team-card-media-icon {
+    width: 60px;
+    height: 60px;
+}
+
+@media screen and (max-width: 1450px) {
+    .our-team-card-container {
+        height: 400px;
+        width: 1100px;
+    }
+    
+    .our-team-card-member-image {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .our-team-card-right-column {
+        padding: 15px 55px;
+        gap: 25px;
+    }
+    
+    .our-team-card-role {
+        font-size: 28px;
+    }
+    
+    .our-team-card-name {
+        font-size: 20px;
+    }
+    
+    .our-team-card-description {
+        font-size: 14px;
+    }
+    
+    .our-team-card-media-row {
+        gap: 50px
+    }
+    
+    .our-team-card-media-icon {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .our-team-card-container {
+        height: 400px;
+        width: 900px;
+    }
+    
+    .our-team-card-member-image {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .our-team-card-container {
+        height: 350px;
+        width: 800px;
+    }
+    
+    .our-team-card-member-image {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .our-team-card-right-column {
+        padding: 15px 25px;
+        gap: 15px;
+    }
+
+    .our-team-card-role {
+        font-size: 24px;
+    }
+    
+    .our-team-card-name {
+        font-size: 16px;
+    }
+    
+    .our-team-card-description {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1005px) {
+    .our-team-card-container {
+        height: 300px;
+        width: 700px;
+    }
+    
+    .our-team-card-member-image {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .our-team-card-right-column {
+        padding: 10px 20px;
+        gap: 10px;
+    }
+
+    .our-team-card-role {
+        font-size: 24px;
+    }
+    
+    .our-team-card-name {
+        font-size: 16px;
+    }
+    
+    .our-team-card-description {
+        font-size: 12px;
+    }
+
+    .our-team-card-media-row {
+        gap: 35px
+    }
+    
+    .our-team-card-media-icon {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .our-team-card-container {
+        height: 100%;
+        width: 350px;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .our-team-card-right-column {
+        gap: 15px;
+    }
+
+    .our-team-card-member-image {
+        box-shadow: 0 0 5px grey;
+    }
+
+    .our-team-card-media-row {
+        gap: 45px;
+        margin-top: auto;
+    }
+    
+    .our-team-card-media-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .our-team-card-role {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .our-team-card-name {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .our-team-card-container {
+        height: auto;
+        width: 250px;
+        flex-direction: column;
+    }
+
+    .our-team-card-right-column {
+        gap: 15px;
+    }
+    
+    .our-team-card-member-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .our-team-card-media-row {
+        gap: 45px
+    }
+    
+    .our-team-card-media-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .our-team-card-role {
+        font-size: 20px;
+    }
+    
+    .our-team-card-name {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-height: 905px) {
+    .our-team-card-member-image {
+        display: none;
+    }
+
+    .our-team-card-container {
+        height: 700px;
+        justify-content: space-between;
+    }
+}

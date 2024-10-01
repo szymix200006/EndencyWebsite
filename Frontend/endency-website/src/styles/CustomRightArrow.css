@@ -1,0 +1,8 @@
+.custom-right-arrow {
+    position: absolute;
+    background: none;
+    border: none;
+    right: 0;
+    top: 400px;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,112 @@
+.features-hero-section-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.features-hero-section-text {
+    color: #FFFFFF;
+    font-size: 32px;
+    text-align: center;
+}
+
+.features-footer-section-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 0 200px;
+    box-sizing: border-box;
+}
+
+.features-footer-section-text {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+
+.features-footer-section-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.features-main-section-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1500px) {
+    .features-footer-section-container {
+        gap: 75px;
+        padding: 0 100px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .features-footer-section-container {
+        gap: 50px;
+        padding: 0 50px;
+    }
+
+    .features-footer-section-text {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .features-hero-section-text {
+        font-size: 28px;
+    }
+
+    .features-footer-section-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .features-hero-section-text {
+        font-size: 24px;
+    }
+
+    .features-footer-section-text {
+        font-size: 20px;
+    }
+
+    .features-footer-section-container {
+        gap: 30px;
+        padding: 0 25px;
+    }
+
+    .features-footer-section-buttons {
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .features-hero-section-text {
+        font-size: 20px;
+    }
+
+    .features-footer-section-text {
+        font-size: 16px;
+    }
+
+    .features-footer-section-buttons {
+        gap: 30px;
+    }
+}
+
+
